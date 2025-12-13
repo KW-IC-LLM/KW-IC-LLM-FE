@@ -7,14 +7,12 @@ export const useMessages = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content:
-        "안녕하세요! 광운대학교 정보융합학부 챗봇입니다. 무엇을 도와드릴까요?",
+      content: "안녕하세요! 광운대학교 챗봇입니다. 무엇을 도와드릴까요?",
       timestamp: new Date(),
       id: "initial",
       suggestedQuestions: [
-        "정보융합학부는 어떤 학부인가요?",
-        "전공 선택은 어떻게 하나요?",
-        "졸업 요건이 어떻게 되나요?",
+        "학과 안내는 어떻게 하나요?",
+        "인공지능융합대학은 무슨 학과들이 있나요?",
       ],
     },
   ]);
